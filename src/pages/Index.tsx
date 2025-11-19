@@ -222,7 +222,51 @@ export default function Index() {
         </div>
       </section>
 
-      <section id="prices" className="py-20 bg-secondary">
+      <section className="py-20 bg-secondary">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl font-bold text-center mb-4">Наши работы</h2>
+          <p className="text-center text-muted-foreground mb-12 text-lg">
+            Фотографии выполненных работ и оснащения сервиса
+          </p>
+          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            <div className="overflow-hidden rounded-lg shadow-lg hover-scale">
+              <img 
+                src="https://cdn.poehali.dev/projects/0d7c50d0-9a9a-45ea-b91b-21f85525c263/files/fe8e34d8-c620-46d2-8c2d-a4f4e88b6287.jpg" 
+                alt="Ремонт двигателя"
+                className="w-full h-64 object-cover"
+              />
+              <div className="p-4 bg-white">
+                <h3 className="font-bold text-lg">Ремонт двигателя</h3>
+                <p className="text-muted-foreground text-sm">Профессиональная диагностика и ремонт</p>
+              </div>
+            </div>
+            <div className="overflow-hidden rounded-lg shadow-lg hover-scale">
+              <img 
+                src="https://cdn.poehali.dev/projects/0d7c50d0-9a9a-45ea-b91b-21f85525c263/files/2ee07a62-90a1-4c9b-b9b5-014efd79970d.jpg" 
+                alt="Современное оборудование"
+                className="w-full h-64 object-cover"
+              />
+              <div className="p-4 bg-white">
+                <h3 className="font-bold text-lg">Современное оборудование</h3>
+                <p className="text-muted-foreground text-sm">Подъемники и инструменты последнего поколения</p>
+              </div>
+            </div>
+            <div className="overflow-hidden rounded-lg shadow-lg hover-scale">
+              <img 
+                src="https://cdn.poehali.dev/projects/0d7c50d0-9a9a-45ea-b91b-21f85525c263/files/ff52d7a4-e588-438d-b7a3-f98875fa5c58.jpg" 
+                alt="Компьютерная диагностика"
+                className="w-full h-64 object-cover"
+              />
+              <div className="p-4 bg-white">
+                <h3 className="font-bold text-lg">Компьютерная диагностика</h3>
+                <p className="text-muted-foreground text-sm">Точное определение неисправностей</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="prices" className="py-20">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center mb-4">Цены</h2>
           <p className="text-center text-muted-foreground mb-12 text-lg">
